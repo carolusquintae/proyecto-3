@@ -1,11 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import FilaEstrellas from './components/FilaEstrellas';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <View style={styles.container}>
+        <Text>Contenedor intermedio para hacer bajar las estrellas mas pabajo</Text>
+      </View>
+      <FilaEstrellas estrellas={3020} />
+      
     </View>
   );
 }
