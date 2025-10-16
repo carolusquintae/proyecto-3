@@ -12,11 +12,7 @@ export default function FilaEstrellas({estrellas}: any) {
                                                     key={estrellas}
                                                     name={"star"}
                                                     size={16}
-                                                    color={
-                                                      estrellas <= generarListaIdsEstrella(5).length ?
-                                                        styles.estrellaVacia.color :
-                                                        styles.estrellaLlena.color
-                                                    }
+                                                    color={styles.estrellaVacia.color}
                                                   />
                                     )
     }
