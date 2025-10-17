@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import FilaEstrellas from './components/FilaEstrellas';
 
 export default function App() {
@@ -7,7 +7,11 @@ export default function App() {
       <View style={styles.container}>
         <Text>Contenedor intermedio para hacer bajar las estrellas mas pabajo</Text>
       </View>
-      <FilaEstrellas estrellas={3020} />
+      <FilaEstrellas estrellas={1} />
+      <FilaEstrellas estrellas={2} />
+      <FilaEstrellas estrellas={3} />
+      <FilaEstrellas estrellas={4} />
+      <FilaEstrellas estrellas={5} />
       
     </View>
   );
