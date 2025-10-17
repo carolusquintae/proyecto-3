@@ -20,10 +20,6 @@ export default function FilaEstrellas({estrellas}: any) {
   );
 }
 
-export function estrellasVacias() {
-  
-}
-
 const styles = StyleSheet.create({
   estrellaLlena: { 
     color: "#ffd700"
