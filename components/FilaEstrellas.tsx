@@ -41,7 +41,6 @@ const styles = StyleSheet.create({
     color: "#ccccccff"
   },
   fila: {
-    flex: 1,
     flexDirection: "row",
     flexWrap: "wrap"
   }
