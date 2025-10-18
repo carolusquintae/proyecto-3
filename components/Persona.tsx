@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, ImageSourcePropType, Image } from 'react-native'
 import React from 'react'
+import FilaEstrellas from './FilaEstrellas'
 
 type persona = {
     nombre : string,
