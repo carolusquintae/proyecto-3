@@ -1,0 +1,87 @@
+[
+  {
+    "titulo": "Dirección",
+    "personal": [
+      {
+        "nombre": "Alfonso",
+        "puesto": "Gerente",
+        "opiniones": 21,
+        "estrellas": 5,
+        "foto": "foto3"
+      },
+      {
+        "nombre": "María Pérez",
+        "puesto": "Jefa de equipo",
+        "opiniones": 35,
+        "estrellas": 4,
+        "foto": "foto5"
+      }
+    ]
+  },
+  {
+    "titulo": "Analistas",
+    "personal": [
+      {
+        "nombre": "Juan Pedro",
+        "puesto": "Analista Programador",
+        "opiniones": 21,
+        "estrellas": 3,
+        "foto": "foto1"
+      },
+      {
+        "nombre": "Andrés",
+        "puesto": "Programador Senior",
+        "opiniones": 35,
+        "estrellas": 4,
+        "foto": "foto2"
+      },
+      {
+        "nombre": "Alfonso",
+        "puesto": "Administrador DB",
+        "opiniones": 21,
+        "estrellas": 4,
+        "foto": "foto3"
+      }
+    ]
+  },
+  {
+    "titulo": "Programadores",
+    "personal": [
+      {
+        "nombre": "Juan Pedro",
+        "puesto": "Analista Programador",
+        "opiniones": 321,
+        "estrellas": 5,
+        "foto": "foto1"
+      },
+      {
+        "nombre": "Andrés",
+        "puesto": "Programador Senior",
+        "comentarios": 125,
+        "estrellas": 5,
+        "foto": "foto2"
+      },
+      {
+        "nombre": "María Pérez",
+        "puesto": "Programadora",
+        "comentarios": 31,
+        "estrellas": 3,
+        "foto": "foto5"
+      },
+      {
+        "nombre": "Josefa Smith",
+        "puesto": "Programadora senior",
+        "comentarios": 211,
+        "estrellas": 5,
+        "foto": "foto4"
+      },
+      {
+        "nombre": "Robin",
+        "puesto": "Programador junior",
+        "comentarios": 28,
+        "estrellas": 2,
+        "foto": "foto6"
+      }
+    ]
+  }
+]

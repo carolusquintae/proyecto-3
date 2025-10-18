@@ -1,18 +1,18 @@
-import { StatusBar, StyleSheet, Text, View } from 'react-native';
-import FilaEstrellas from './components/FilaEstrellas';
+import { StyleSheet, View } from 'react-native';
 import Titulo from './components/Titulo';
 import Persona from './components/Persona';
+import { FOTOS } from './data/Fotos';
 
 export default function App() {
   return (
-     <View style = {{marginTop : 100}}>
+     <View style = {styles.contenedor}>
       <Titulo texto={"Prueba"} fontSize={28} />
 
       <Persona
         nombre={"Lucía"}
         puesto={"Desarrolladora"}
         opiniones={5}
-        foto={require("./assets/foto5.png")}
+        foto={FOTOS["foto1"]}
         estrellas={4}
       ></Persona>
     </View>
@@ -20,4 +20,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
+  contenedor: {
+    marginTop: 100
+  }
 });
