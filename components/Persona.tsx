@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     elevation: 7,
     shadowColor: "#3a7b99ff",
     shadowOffset: { width: 3, height: 3 },
-    shadowOpacity: 0.1,
+    shadowOpacity: 0.40,
     shadowRadius: 4,
   },
   marcoFoto: {
