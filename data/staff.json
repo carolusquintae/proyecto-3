@@ -57,28 +57,28 @@
       {
         "nombre": "Andrés",
         "puesto": "Programador Senior",
-        "comentarios": 125,
+        "opiniones": 125,
         "estrellas": 5,
         "foto": "foto2"
       },
       {
         "nombre": "María Pérez",
         "puesto": "Programadora",
-        "comentarios": 31,
+        "opiniones": 31,
         "estrellas": 3,
         "foto": "foto5"
       },
       {
         "nombre": "Josefa Smith",
         "puesto": "Programadora senior",
-        "comentarios": 211,
+        "opiniones": 211,
         "estrellas": 5,
         "foto": "foto4"
       },
       {
         "nombre": "Robin",
         "puesto": "Programador junior",
-        "comentarios": 28,
+        "opiniones": 28,
         "estrellas": 2,
         "foto": "foto6"
       }
